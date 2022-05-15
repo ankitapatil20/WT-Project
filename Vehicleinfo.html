@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="vehicle.css">
+</head>
+<body >
+    <form action="vehicle.php" method="post">
+<div class="form">
+<table align="center">
+<div class="container">
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-6">
+<div class="h1"><h1>VEHICLE INFORMATION</h1></div>
+                <tr><td><label class="label col-md-3 control-label">Vehicle Id</label>
+                <div class="col-md-9">
+                <input type="text" class="form-control" name="vehicle_id" id="vehicleid"></div><br></td>
+<td><label class="label col-md-3 control-label">Vehicle Type</label>
+                <div class="col-md-9">
+<input type="E-mail" class="form-control" name="vehicle_type" id="vehicletype"></div><br></td></tr>
+<tr><td><label class="label col-md-3 control-label">Vehicle Number</label>
+                <div class="col-md-9">
+                <input type="text" class="form-control" name="vehicle_num" id="vehiclenum"></div><br></td>
+                <td><label class="label col-md-3 control-label">Registration Date of vehicle</label>
+                <div class="col-md-9">
+                <input type="Date" class="form-control" name="register_date" id="registerdate"></div><br></td></tr>
+                <tr><td><label class="label col-md-3 control-labe">Registration No.of vehicle</label>
+                <div class="col-md-9">
+                <input type="text" class="form-control" name="register_num" id="registernum"></div><br></td>
+              <td>  <label class="label col-md-3 control-label">VIN No.of vehicle</label>
+                <div class="col-md-9">
+                <input type="text" class="form-control" name="vin_num" id="vinnum"></div><br></td></tr>
+                <tr><td><label class="label col-md-3 control-labe">Driving License</label>
+                <div class="col-md-9">
+                <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Yes
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    No
+  </label>
+</div>
+         <td><label class="label col-md-3 control-label">Driving License Image</label>
+                <div class="col-md-9">
+                <input type="file" class="form-control" name="driving_img" id="drivingimg"></div><br></td></tr>
+                <br>
+                </table>
+               <tr><td><button class="btn btn-info">SUBMIT</button></td></tr>
+
+</div>
+
+</div>
+</div>
+
+</form>
+
+</body>
+</html>
